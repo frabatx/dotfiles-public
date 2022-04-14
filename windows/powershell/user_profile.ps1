@@ -22,6 +22,8 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 
 
 # Alias
+function codlocation { set-location "C:\Users\TD640\Coding" }
+Set-Alias coding codlocation
 Set-Alias vim nvim
 Set-Alias ll ls
 Set-Alias g git
